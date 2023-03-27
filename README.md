@@ -1,1 +1,1 @@
-# javascript-OpenBootCamp
+# OpenBootCamp-Javascript
