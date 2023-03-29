@@ -4,7 +4,7 @@
   "description": "This is my first proyect on javascript with Node",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node ./01intro/index.js",
     "hello": "node hello_world.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
