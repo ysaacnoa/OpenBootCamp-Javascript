@@ -13,5 +13,8 @@
     "firstproyect"
   ],
   "author": "Lil Atza",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.37.0"
+  }
 }
