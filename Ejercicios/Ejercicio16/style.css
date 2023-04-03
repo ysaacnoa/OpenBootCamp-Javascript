@@ -1,0 +1,22 @@
+.section{
+    background-color: darkslateblue;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.parraf{
+    background-color: aliceblue;
+    padding: 1rem;
+}
+
+.parraf.dragging{
+    opacity: 0.3;
+}
+
+.img-ghost{
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    background-color: darkblue;
+    left: -100vw;
+}
