@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Geolocalization</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>World</title>
+    
+  </head>
+  <h1>Select your favorite place</h1>
+    <select name="select-places" id="select-places">
+      <option value="-1">Select a place</option>
+      <option value="51.505, -0.09">Santander</option>
+      <option value="-18.2871, 147.6992">London street</option>
+      <option value="-13.1631, -72.5450">Hiyal Mount</option>
+      <option value="27.9881, 86.9250">Hall of Fame</option>
+    </select>
+  <body>
+    <div id="map"></div>
+  </body>
+  <!-- Make sure you put this AFTER Leaflet's CSS -->
+  <script
+    src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" 
+    crossorigin=""
+  ></script>
+  <script src="index.js"></script>
+</html>
